@@ -1,0 +1,59 @@
+.testimonial {
+ width: 80%;
+ margin: 0 auto;
+ @include responsive-lg() {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+  }
+
+ .testimonial1,
+ .testimonial2 {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 30px;
+  @include responsive-lg() {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  img {
+   position: absolute;
+  }
+
+  .quote {
+   position: relative;
+   left: 80%;
+   bottom: 70px;
+  }
+
+  h2,
+  h3 {
+   text-align: left;
+   width: 50%;
+   margin-left: 120px;
+  }
+
+  h2 {
+   font-size: 18px;
+   margin-bottom: 0px;
+  }
+
+  h3 {
+   color: $blue;
+   font-size: 14px;
+  }
+
+  p {
+   text-align: left;
+   margin-top: 10px;
+   font-weight: 600;
+   color: #4D596F;
+  }
+
+ }
+
+ .testimonial1 {
+  margin-top: 0px;
+ }
+}

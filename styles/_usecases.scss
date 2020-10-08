@@ -1,0 +1,45 @@
+.usecases {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	@include responsive-lg() {
+		margin-top: 150px;
+	  }
+	hr {
+		margin-bottom: 40px;
+		width: 80px;
+		border: 2px solid #1968FC;
+		margin-left: 0px;
+		box-shadow: 0 4px 0px 0px #CCDDFE;
+		opacity: 1;
+	   }
+	   .grid {
+		display: grid;
+		grid-template: 1fr / auto auto;
+		gap: 15px;
+		text-align: center;
+		@include responsive-lg() {
+			display: flex;
+			flex-wrap: wrap;
+			text-align: left;
+		  }
+	}
+	   .grid_item {
+		   width: 100%;
+		   background-color: #FEFEFF;
+		   padding: 10px;
+		   box-shadow: 0px 7px 10px -13px rgba(0,0,0,0.73);
+		   @include responsive-lg() {
+			width: 32%;
+		  }
+
+		   h3 {
+			color: $blue;
+			font-size: 20px;
+		   }
+		   p {
+			font-weight: 300;
+			color: #11223F;
+		   }
+	   }
+	}

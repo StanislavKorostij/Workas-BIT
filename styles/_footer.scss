@@ -1,0 +1,109 @@
+footer {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	@include responsive-lg() {
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		margin: 0 auto;
+	  }
+	  .fbinsta1 {
+		  display: none;
+		  @include responsive-lg() {
+			display: block;
+			position: relative;
+			top: 50px;
+			height: 50px;
+			margin: 0 auto;
+		  }
+	  }
+
+	.media {
+		display: flex;
+		justify-content: space-between;
+		@include responsive-lg() {
+			position: relative;
+			width: 30%;
+		  }
+
+		.logolink {
+			width: 50%;
+			background-color: #EFF3FB;
+			@include responsive-lg() {
+				display: block;
+				position: relative;
+				top: 50px;
+				left: -20px;
+				width: 300px;
+				height: 50px;
+				margin: 0 auto;
+			  }
+
+			img {
+				width: 50px;
+				height: 50px;
+			}
+			a {
+				text-decoration: none;
+				font-weight: 700;
+				color: $blue;
+				position: relative;
+				bottom: 20px;
+				left: 15px;
+			}
+		}
+	}
+	.fbinsta, .fbinsta1 {
+		width: 20%;
+		background-color: #D8D8D8;
+
+		.fb {
+			position: relative;
+			top: 15px;
+			right: -15px;
+			width: 25px;
+			height: 25px;
+		}
+		.insta {
+			position: relative;
+			top: 15px;
+			right: -35px;
+			width: 25px;
+			height: 25px;
+		}
+	}
+	.fbinsta {
+		@include responsive-lg() {
+			display: none;
+		  }
+	}
+    .botnav {
+		width: 100%;
+		
+		ul {
+			padding: 0;
+			list-style-type: none;
+			display: flex;
+			justify-content: space-between;
+			list-style-type: none;
+			margin-bottom: 0px;
+
+			li {
+				font-weight: 700;
+				margin-top: 50px;
+
+				img {
+					position: relative;
+					top: -20px;
+					width: 55px;
+					height: 60px;
+					@include responsive-lg() {
+						right: 25%;
+						transform: translate(200px, 38px);
+					  }
+				}
+			}
+		}
+	}
+}

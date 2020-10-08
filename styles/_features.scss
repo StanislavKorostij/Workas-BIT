@@ -1,0 +1,86 @@
+.features {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  @include responsive-lg() {
+    margin-top: 150px;
+  }
+  hr {
+    margin-bottom: 40px;
+    width: 80px;
+    border: 2px solid #1968fc;
+    margin-left: 0px;
+    box-shadow: 0 4px 0px 0px #ccddfe;
+    opacity: 1;
+  }
+  .container {
+    @include responsive-lg() {
+      display: flex;
+      justify-content: space-between;
+    }
+    .pixel {
+      @include responsive-lg() {
+        display: block;
+        height: 202px;
+        width: 30%;
+        position: relative;
+      }
+    }
+    .flexible {
+      @include responsive-lg() {
+        display: block;
+        width: 30%;
+        position: relative;
+        top: 50px;
+      }
+    }
+    .complete {
+      @include responsive-lg() {
+        display: block;
+        height: 201px;
+        width: 30%;
+        position: relative;
+        top: 100px;
+      }
+    }
+    .logos {
+      width: 80px;
+      height: 80px;
+    }
+    .flexible,
+    .pixel,
+    .complete {
+		margin-top: 50px;
+      padding: 0px;
+      padding-left: 0px;
+      box-shadow: 0px 7px 10px -13px rgba(0, 0, 0, 0.73);
+      .text1 {
+		background-color: #f3f7ff;
+		margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        @include responsive-lg() {
+          height: 80px;
+        }
+      }
+      h3 {
+        padding-top: 10px;
+        padding-left: 1rem;
+        flex: 0.9;
+        @include responsive-lg() {
+          padding-top: 0px;
+        }
+      }
+      .text2 {
+        background-color: #ffffff;
+		padding: 20px;
+      }
+      .deco1 {
+        position: relative;
+        left: 100%;
+        top: 1.8em;
+      }
+    }
+  }
+}

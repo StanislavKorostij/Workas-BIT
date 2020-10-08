@@ -1,0 +1,5 @@
+@mixin responsive-lg() {
+    @media screen and (min-width: 1080px) {
+        @content;
+    }
+}

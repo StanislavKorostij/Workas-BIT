@@ -1,0 +1,169 @@
+body {
+  background-color: #F7FAFF;
+  width: 100%;
+  margin: 0 auto;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body p {
+  color: #11223F;
+  opacity: 1;
+}
+
+header {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+header nav {
+  list-style-type: none;
+  display: flex;
+}
+header nav li {
+  margin: 10px 10px 10px 10px;
+}
+header nav li h2 {
+  color: #1968FC;
+}
+header nav .hidden {
+  display: flex;
+}
+
+.hero {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.hero h1 {
+  font-size: 2.3rem;
+  color: #11223F;
+}
+.hero p {
+  color: #11223F;
+  font-size: 1.25rem;
+}
+.hero button {
+  color: #fff;
+  border: none;
+  background-color: #1968FC;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 0 10px 40px rgba(25, 104, 252, 0.3);
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.hero img {
+  margin-top: 80px;
+  display: block;
+  width: 100%;
+}
+.hero .hidden {
+  display: none;
+}
+
+.mobile {
+  width: 100%;
+  margin: 0 auto;
+}
+.mobile p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+  color: white;
+  padding: 60px 25px 60px 25px;
+  margin: 0px;
+}
+
+.testimonial {
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonial .testimonial1,
+.testimonial .testimonial2 {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 30px;
+}
+.testimonial .testimonial1 img,
+.testimonial .testimonial2 img {
+  position: absolute;
+}
+.testimonial .testimonial1 .quote,
+.testimonial .testimonial2 .quote {
+  position: relative;
+  left: 315px;
+  bottom: 70px;
+}
+.testimonial .testimonial1 h2,
+.testimonial .testimonial1 h3,
+.testimonial .testimonial2 h2,
+.testimonial .testimonial2 h3 {
+  text-align: left;
+  width: 50%;
+  margin-left: 120px;
+}
+.testimonial .testimonial1 h2,
+.testimonial .testimonial2 h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.testimonial .testimonial1 h3,
+.testimonial .testimonial2 h3 {
+  color: #1968FC;
+  font-size: 14px;
+}
+.testimonial .testimonial1 p,
+.testimonial .testimonial2 p {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #4D596F;
+}
+.testimonial .testimonial1 {
+  margin-top: 0px;
+}
+
+.how {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.how hr {
+  margin-bottom: 40px;
+  width: 30%;
+  border: 2px solid #1968FC;
+  margin-left: 0px;
+  box-shadow: 0 4px 0px 0px #CCDDFE;
+  opacity: 1;
+}
+
+.step1,
+.step2,
+.step3 {
+  background-color: #FFFFFF;
+  padding: 0px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.step1 h2,
+.step2 h2,
+.step3 h2 {
+  color: #1968FC;
+  margin-bottom: 20px;
+}
+.step1 img,
+.step2 img,
+.step3 img {
+  position: relative;
+  display: block;
+  left: 85%;
+  top: 3rem;
+}
+.step1 .deco1,
+.step2 .deco1,
+.step3 .deco1 {
+  position: relative;
+  left: 96%;
+  top: 0.4em;
+}

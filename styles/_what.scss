@@ -1,0 +1,41 @@
+.what {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+  
+	hr {
+	  margin-bottom: 40px;
+	  width: 80px;
+	  border: 2px solid #1968fc;
+	  margin-left: 0px;
+	  box-shadow: 0 4px 0px 0px #ccddfe;
+	  opacity: 1;
+	}
+	}
+	.container {
+		@include responsive-lg() {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		  }
+	}
+	h1 {
+		font-size: 25px;
+		padding: 50px 0px 50px 0px;
+		margin: 50px 0px 30px 0px;
+	}
+	.text1{
+		background-color: #FFFFFF;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 20px 0px 20px 0px;
+		@include responsive-lg() {
+			width: 48%;
+		  }
+		}
+		h3 {
+			font-size: 18px;
+			padding-left: 1rem;
+			flex: 0.9;
+		}

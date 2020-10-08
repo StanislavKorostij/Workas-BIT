@@ -1,0 +1,100 @@
+.how {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  @include responsive-lg() {
+		margin-top: 100px;
+	  }
+
+  hr {
+    margin-bottom: 40px;
+    width: 80px;
+    border: 2px solid #1968fc;
+    margin-left: 0px;
+    box-shadow: 0 4px 0px 0px #ccddfe;
+    opacity: 1;
+  }
+  .container {
+    @include responsive-lg() {
+      display: flex;
+      justify-content: space-between;
+    }
+    .step1 {
+      @include responsive-lg() {
+        display: block;
+        height: 202px;
+        width: 30%;
+        position: relative;
+      }
+      
+    }
+    .step2 {
+      @include responsive-lg() {
+        display: block;
+        width: 30%;
+        position: relative;
+        top: 50px;
+      }
+    }
+    .step3 {
+      @include responsive-lg() {
+        display: block;
+        height: 201px;
+        width: 30%;
+        position: relative;
+        top: 100px;
+      }
+    }
+    .hl {
+      display: none;
+      @include responsive-lg() {
+      display: block;
+      position: absolute;
+      width: 43px;
+      top: 110px;
+      left: 100%;
+    }
+  }
+  
+
+.step1,
+.step2,
+.step3 {
+  background-color: #ffffff;
+  padding: 0px;
+  padding-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 7px 10px -13px rgba(0,0,0,0.73);
+  
+
+
+  h2 {
+    color: $blue;
+    font-size: $pSize;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+
+  img {
+    position: relative;
+    display: block;
+    left: 85%;
+    top: 3rem;
+    @include responsive-lg() {
+      left: 75%;
+    }
+  }
+
+  .deco1 {
+    position: relative;
+    left: 96%;
+    top: 0.4em;
+    @include responsive-lg() {
+      left: 92%;
+    }
+  }
+}
+}
+}

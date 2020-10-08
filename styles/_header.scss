@@ -1,0 +1,40 @@
+header {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  opacity: 1;
+  @include responsive-lg() {
+    margin-top: 10px;
+  }
+
+  nav {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      margin: 10px 10px 10px 10px;
+      h2 {
+        color: $blue;
+      }
+    }
+    button {
+      border: none;
+      padding: 10px;
+      font-weight: 300;
+      color: white;
+      background-color: $blue;
+      box-shadow: $blueButton;
+    }
+
+    .hidden {
+      display: none;
+      @include responsive-lg() {
+        display: block;
+        position: relative;
+        font-size: 14px;
+        left: 15%;
+        font-weight: 700;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.ourstory {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	opacity: 1;
+	background-color: #FFFFFF;
+	padding: 50px 50px 30px 50px;
+
+	hr {
+		margin-bottom: 40px;
+		width: 80px;
+		border: 2px solid #1968FC;
+		margin-left: 0px;
+		opacity: 1;
+	   }
+	   .container {
+		@include responsive-lg() {
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+		  }
+	   }
+.whoarewe, .name {
+	width: 80%;
+	margin-left: 5%;
+	@include responsive-lg() {
+		width: 40%;
+	  }
+
+   img {
+	   position: relative;
+	   left: 0%;
+	   top: 57px;
+	   @include responsive-lg() {
+		left: -5%;
+	  }
+   }
+   h3 {
+	margin-left: 8%;
+   }
+   p {
+	   margin-left: 12%;
+	   line-height: 1.7;
+	   margin-bottom: 40px;
+   }
+}
+}

@@ -1,0 +1,12 @@
+/* Melynu mygtuku seselis */
+.btn-blue {
+    box-shadow: 0 10px 40px rgba(25, 104, 252, 0.3);
+}
+/* Balto mygtuko seselis */
+.btn-white {
+    box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4);
+}
+/* korteliu seselis */
+.card {
+    box-shadow: 0 20px 60px rgba(49, 69, 244, 0.1);
+}

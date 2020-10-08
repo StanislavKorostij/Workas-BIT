@@ -1,0 +1,48 @@
+.hero {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 0.6em;
+      .text {
+        @include responsive-lg() {
+            width: 40%;
+            height: 380px;
+            margin-right: 30%;
+          }
+    h1 {
+        font-size: $h1Size;
+        color: $fontBlue;
+    }
+
+    p {
+        color: $fontBlue;
+        font-size: $pSize;
+    }
+
+    button {
+        color: #fff;
+        border: none;
+        background-color: $blue;
+        padding: 20px 40px 20px 40px;
+        box-shadow: $blueButton;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
+
+    img {
+        margin-top: 80px;
+        display: block;
+        width: 100%;
+        @include responsive-lg() {
+            position: absolute;
+            top: 130px;
+            left: 50%;
+            width: 40%;
+          }
+    }
+
+    .hidden {
+        display: none;
+    }
+}

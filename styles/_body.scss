@@ -1,0 +1,27 @@
+body {
+ background-color: #F7FAFF;
+ width: 100%;
+ margin: 0 auto;
+ @include responsive-lg() {
+    background-image: url(/images/trikampis.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ p {
+  color: #11223F;
+  opacity: 1;
+
+ }
+.hl {
+  border-bottom: 4px solid #1968fc;
+  margin: 0;
+  box-shadow: 0 4px 0px 0px #ccddfe;
+  opacity: 1;
+}
+}
